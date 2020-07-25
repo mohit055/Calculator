@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="img/png" href="img/favicon.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>CALCULATOR</h1>
+      <form>
+        <div>
+          <label>Value : </label
+          ><input type="text" id="a" placeholder="eg-2,8,etc" />
+        </div>
+        <div>
+          <label>Value : </label
+          ><input type="text" id="b" placeholder="eg-2,8,etc" />
+        </div>
+        <br />
+        <div class="op">
+          <label>Operation :</label>
+          <select id="op">
+            <option>None</option>
+            <option>Addition</option>
+            <option>Subtraction</option>
+            <option>Multiplication</option>
+            <option>Division</option>
+          </select>
+        </div>
+        <br />
+        <button type="button" id="button" onClick="calc()">Calculate</button>
+        <hr />
+        <p>Result : <strong id="result"></strong></p>
+      </form>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
