@@ -50,6 +50,8 @@ input {
   padding: 2px 5px;
 }
 
+/* Calc Button */
+
 button {
   outline: none;
   padding: 2px;
@@ -65,12 +67,14 @@ hr {
   margin: 10px 0;
 }
 
+/* Result */
+
 #result {
   font-size: 20px;
   color: seagreen;
 }
 
-/* Making it responsive */
+/* Making everything responsive */
 
 @media only screen and (max-width: 768px) {
   form {

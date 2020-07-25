@@ -1,3 +1,4 @@
+// Function to Calculate the Output
 function calc() {
   var a = parseInt(document.querySelector("#a").value);
   var b = parseInt(document.querySelector("#b").value);
