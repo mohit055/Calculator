@@ -1,49 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="img/png" href="img/favicon.jpeg" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator</title>
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <!-- Container -->
-    <div class="container">
-      <h1>CALCULATOR</h1>
-      <!-- Form -->
-      <form>
-        <div>
-          <label>Value : </label
-          ><input type="text" id="a" placeholder="eg-2,8,etc" />
-        </div>
-        <div>
-          <label>Value : </label
-          ><input type="text" id="b" placeholder="eg-2,8,etc" />
-        </div>
-        <br />
-        <div class="op">
-          <label>Operation :</label>
-          <select id="op">
-            <option>None</option>
-            <option>Addition</option>
-            <option>Subtraction</option>
-            <option>Multiplication</option>
-            <option>Division</option>
-          </select>
-        </div>
-        <br />
-        <!-- Calc Button -->
-        <button type="button" id="button" onClick="calc()">Calculate</button>
-        <hr />
-        <!-- Result -->
-        <p>Result : <strong id="result"></strong></p>
-      </form>
-    </div>
-  </body>
-  <!-- JS -->
-  <script src="script.js"></script>
+<head>
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="img/png" href="img/favicon.jpeg" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Container -->
+  <div class="container">
+    <h1>CALCULATOR</h1>
+    <!-- Form -->
+    <form>
+      <div>
+        <label>Value : </label><input type="text" id="a" placeholder="eg-2,8,etc" autocomplete="off" />
+      </div>
+      <div>
+        <label>Value : </label><input type="text" id="b" placeholder="eg-2,8,etc" autocomplete="off" />
+      </div>
+      <br />
+      <div class="op">
+        <label>Operation :</label>
+        <select id="op">
+          <option>None</option>
+          <option>Addition</option>
+          <option>Subtraction</option>
+          <option>Multiplication</option>
+          <option>Division</option>
+        </select>
+      </div>
+      <br />
+      <!-- Calc Button -->
+      <button type="button" id="button" onClick="calc()">Calculate</button>
+      <hr />
+      <!-- Result -->
+      <p>Result : <strong id="result"></strong></p>
+    </form>
+  </div>
+</body>
+<!-- JS -->
+<script src="script.js"></script>
+
 </html>
